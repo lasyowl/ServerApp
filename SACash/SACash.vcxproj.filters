@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AppEntry.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="CSV.cpp" />
+    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="OAuth2Listener.cpp" />
+    <ClCompile Include="Packet.cpp" />
+    <ClCompile Include="QueryBuilder.cpp" />
+    <ClCompile Include="ReceiptVerifier.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="ServerApp.cpp" />
+    <ClCompile Include="Sha512.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="UserPool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="CSV.h" />
+    <ClInclude Include="Database.h" />
+    <ClInclude Include="OAuth2Listener.h" />
+    <ClInclude Include="Packet.h" />
+    <ClInclude Include="Protocol_Client.h" />
+    <ClInclude Include="QueryBuilder.h" />
+    <ClInclude Include="ReceiptVerifier.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="ServerApp.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Sha512.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="UserPool.h" />
+    <ClInclude Include="Util.h" />
+  </ItemGroup>
+</Project>

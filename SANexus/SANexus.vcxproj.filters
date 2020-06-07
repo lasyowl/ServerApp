@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AppEntry.cpp">
+      <Filter>SANexus\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ClientManager.cpp">
+      <Filter>Common\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Debug.cpp">
+      <Filter>Common\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\MemoryPool.cpp">
+      <Filter>Common\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\NetworkManager.cpp">
+      <Filter>Common\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Packet.cpp">
+      <Filter>Common\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ServerConnection.cpp">
+      <Filter>Common\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ServerManager.cpp">
+      <Filter>Common\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryBuilder.cpp">
+      <Filter>SANexus\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>SANexus\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{145fda2c-de34-45bb-8a4d-4546e33a4fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SANexus">
+      <UniqueIdentifier>{c2704d20-5086-4d97-a182-7858347f710a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SANexus\Headers">
+      <UniqueIdentifier>{34be55e3-d113-4fb3-a421-757768314649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SANexus\Sources">
+      <UniqueIdentifier>{f61c5c89-814e-4fe8-a6d0-f72a74d2b7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Sources">
+      <UniqueIdentifier>{aab68b10-0df5-4c21-b094-1d2961e691eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Headers">
+      <UniqueIdentifier>{53175a1a-e442-4871-8475-3359eff7eaf5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\SAEssential.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ServerConnection.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ServerManager.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\StdafxCommon.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ClientManager.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ConfigCommon.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Debug.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\MemoryPool.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\NetworkManager.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Packet.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>SANexus\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>SANexus\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryBuilder.h">
+      <Filter>SANexus\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>SANexus\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NexusEssential.h">
+      <Filter>SANexus\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,45 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Folders
+/.vs
+/SACash/Debug
+/SACash/x64
+/SAInstance/Debug
+/SAInstance/x64
+/SALobby/Debug
+/SALobby/x64
+/SALogin/Debug
+/SALogin/x64
+/SANexus/Debug
+/SANexus/x64
+/Debug
+/x64

@@ -1,0 +1,19 @@
+#pragma once
+
+enum S2C_LEVEL0 {
+	S0_DISCONNECT,
+	S0_RECEIPT,
+	S0_LOGIN,
+	S0_USER
+};
+
+enum S2C_LEVEL1 {
+	S1_USER_SYNC_COMMODITY = 1
+};
+
+enum C2S_LEVEL0 {
+	R0_RECEIPT = 1,
+	R0_LOGIN,
+	R0_USER,
+	R0_CREATEACCOUNT
+};
